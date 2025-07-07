@@ -55,19 +55,19 @@ A simple Angular application demonstrating **@Input** and **@Output** decorators
 ## 📸 Screenshots
 
 ### Main Application
-![Main App](screenshots/main-app.png)
+![WhatsApp Image 2025-07-06 at 20 46 12_f5b1e06a](https://github.com/user-attachments/assets/fec0773c-ea6b-49da-86fe-d597b763f764)
 *Angular Parent-Child Communication Demo with gradient background*
 
 ### Parent Component
-![Parent Component](screenshots/parent-component.png)
+![image](https://github.com/user-attachments/assets/78b9c61a-621d-4e62-bfc2-357535e56a14)
 *Parent component with input field and send button*
 
 ### Child Component Interaction
-![Child Component](screenshots/child-interaction.png)
+![image](https://github.com/user-attachments/assets/1becb862-42ee-42a4-9b49-fccab105a371)
 *Child component receiving @Input and emitting @Output events*
 
 ### Complete Communication Flow
-![Communication Flow](screenshots/communication-flow.png)
+![image](https://github.com/user-attachments/assets/60fd742a-be9f-4290-a82f-94a3432ac542)
 *Full parent-child communication demonstration*
 
 ## 🎮 How to Use the App
