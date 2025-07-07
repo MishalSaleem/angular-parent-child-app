@@ -31,7 +31,7 @@ A simple Angular application demonstrating **@Input** and **@Output** decorators
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/angular-parent-child-app.git
+   git clone https://github.com/MishalSaleem/angular-parent-child-app.git
    cd angular-parent-child-app
    ```
 
@@ -41,6 +41,66 @@ A simple Angular application demonstrating **@Input** and **@Output** decorators
    ```
 
 3. **Start development server:**
+   ```bash
+   ng serve
+   ```
+   OR
+   ```bash
+   npm start
+   ```
+
+4. **Open your browser:**
+   Navigate to `http://localhost:4200`
+
+## 📸 Screenshots
+
+### Main Application
+![Main App](screenshots/main-app.png)
+*Angular Parent-Child Communication Demo with gradient background*
+
+### Parent Component
+![Parent Component](screenshots/parent-component.png)
+*Parent component with input field and send button*
+
+### Child Component Interaction
+![Child Component](screenshots/child-interaction.png)
+*Child component receiving @Input and emitting @Output events*
+
+### Complete Communication Flow
+![Communication Flow](screenshots/communication-flow.png)
+*Full parent-child communication demonstration*
+
+## 🎮 How to Use the App
+
+1. **Enter a name** in the input field (e.g., "John")
+2. **Click "Send Name to Child"** button
+3. **Observe** the child component displays: "Received name: John"
+4. **Click "Send Greeting Back"** in the child component
+5. **See** the parent displays: "Received: Hello, John! Nice to meet you."
+6. **Use "Clear All"** to reset and try again
+
+## 🔧 Running the Project (Multiple Methods)
+
+### Method 1: Using Batch File (Windows)
+- **Double-click** `start-app.bat` in the project folder
+
+### Method 2: Command Line
+```bash
+cd angular-app
+ng serve --open
+```
+
+### Method 3: VS Code
+- Open project in VS Code
+- Open terminal (`Ctrl + \``)
+- Run: `ng serve`
+
+### Method 4: npm Scripts
+```bash
+npm start    # Starts development server
+npm run build    # Builds for production
+npm test     # Runs unit tests
+```
 
 ```bash
 ng serve
